@@ -7,7 +7,5 @@ public static class Program
        bool boolean = MyClass<bool>.FactoryMethod();
        Console.WriteLine($"Number: {number}");
        Console.WriteLine($"Bool: {boolean}");
-       
-       
     }
 }
