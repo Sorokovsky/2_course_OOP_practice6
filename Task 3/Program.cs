@@ -5,7 +5,6 @@ public static class Program
     {
         MyDictionary<string, int> dictionary = new();
         dictionary.Add("i", 2);
-        Console.WriteLine($"Size: {dictionary.Count}");
         Console.WriteLine($"At 'i' = {dictionary["i"]}");
         Console.WriteLine($"Count: {dictionary.Count}");
         
